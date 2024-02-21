@@ -18,8 +18,8 @@ const Hero = () => {
 
       {/* left */}
       <div className='flex flex-col justify-center pl-24 z-10 '>
-        <h1 className='text-blue-700 text-9xl font-bold '>Sargam'</h1>
-        <h1 className='text-blue-700 text-9xl animate-bounce'>24</h1>
+        <h1 className='text-[#FDFFAB] text-9xl font-bold '>Sargam</h1>
+        <h1 className='text-[#FFCF81] text-9xl animate-bounce'>24</h1>
         <h2 className='text-gray-400 text-2xl mt-4 '>Cochin University Arts Fest</h2>
         <div className='w-[250px] h-[100px] bg-red-500 border rounded-3xl mt-5 items-center justify-center pl-4 '>
           <h1 className='text-white text-2xl p-3 items-center justify-center'>February 29    March 1,2,3,4</h1>
