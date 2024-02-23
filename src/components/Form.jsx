@@ -1,7 +1,13 @@
 
 import React, { useState } from 'react';
-import { createClient } from "@supabase/supabase-js";
-const supabase = createClient("https://ufcgnfipctcnvcmpjehw.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVmY2duZmlwY3RjbnZjbXBqZWh3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDg2MDE5MzUsImV4cCI6MjAyNDE3NzkzNX0.XDQoUK3jbozdUryLskOIO7WWYGhG5EVVeedgFdd59V0");
+import { createClient } from '@supabase/supabase-js'
+const supabaseUrl = 'https://ufcgnfipctcnvcmpjehw.supabase.co';
+const supabaseKey ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVmY2duZmlwY3RjbnZjbXBqZWh3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDg2MDE5MzUsImV4cCI6MjAyNDE3NzkzNX0.XDQoUK3jbozdUryLskOIO7WWYGhG5EVVeedgFdd59V0"
+const supabase = createClient(supabaseUrl, supabaseKey)
+
+// main entry file (e.g., index.js)
+
+
 
 const Form = () => {
 

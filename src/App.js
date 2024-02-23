@@ -4,7 +4,6 @@ import Adminform from './pages/Adminform';
 import Pointstable from './pages/Pointstable';
 import Main from './pages/main';
 import {Routes, Route, BrowserRouter} from "react-router-dom";
-
 function App() {
   return (
     <div>
