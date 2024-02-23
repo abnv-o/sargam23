@@ -30,7 +30,7 @@ const Hero = () => {
 
       {/* left */}
       <div className='flex flex-col justify-center pl-24 z-10 '>
-        <h1 className='text-[#FFD6A5] text-9xl font-bold animate-smooth-fade'>
+        <h1 className='text-[#FFD6A5] text-9xl font-bold animate-pulse-fade'>
           {text}
         </h1>
         <h1 className='text-[#FFFEC4] text-9xl animate-pulse font-bold pt-4'>24</h1>
