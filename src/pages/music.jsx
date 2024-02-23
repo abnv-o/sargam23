@@ -1,22 +1,65 @@
-import React from 'react'
+// import React from "react";
 
-function Music() {
-  return (
-    <div style={{ textAlign: 'center' }}>
-      <h1 style={{ color: '#333' }}>EVENTS</h1>
-      <h2 style={{ color: '#555' }}>Music</h2>
-      <ul style={{ listStyleType: 'none', padding: 0 }}>
-        <li>Concert: Classical Ensemble</li>
-        <li>Jazz Jam Session</li>
-        <li>Music Workshop: Exploring Different Genres</li>
-      </ul>
+// const music = () => {
+//   return (
+//     <div>
+//       {/* parent */}
+//       <div className="flex flex-col justify-center items-center">
+//         {/* top */}
+//         <div className="flex flex-row justify-center items-center">
+//           {/* data */}
+//           <div className="flex flex-col justify-center items-stretch">
+//             <div>
+//               <h1>LIGHT MUSIC(M/F)</h1>
+//               <h1>MAPPILAPPATTU(M/F)</h1>
+//               <h1>GANAMELA</h1>
+//               <h1>GAZAL(M/F)</h1>
+//               <h1>WESTERN VOCAL GROUP</h1>
+//               <h1>WESTERN VOCAL SOLO</h1>
+//               <h1>VANJIPATTU</h1>
+//               <h1>GROUP SONG</h1>
+//               <h1>FLOK SONG</h1>
+//               <h1>CLASSICAL MUSIC(M/F)</h1>
+//               <h1>VRINDAVADYAM</h1>
+//             </div>
+//             <div>
+//               <h1>STRINGED INSTRUMENTS</h1>
+//               <ul>
+//                 <li>VEENA</li>
+//                 <li>EASTERN STYLE</li>
+//                 <li>WESTERN STYLE</li>
+//                 <li>GUITAR</li>
+//               </ul>
+//             </div>
+//             <div>
+//               <h1>WIND INSTRUMENT</h1>
+//               <ul>
+//                 <li>EASTERN STYLE</li>
+//                 <li>WESTERN STYLE</li>
+//               </ul>
+//             </div>
+//             <div>
+//               <h1>PERCUSSION INSTRUMENTS</h1>
+//               <ul>
+//                 <li>TABLA</li>
+//                 <li>EASTERN STYLE</li>
+//                 <li>WESTERN STYLE</li>
+//                 <li>CHENDA</li>
+//               </ul>
+//             </div>
+//             <div>
+//           </div>
+//           {/* data end */}
+//         </div>
+//         </div>
 
-      {/* Add your image URLs below */}
-      <img src="image1.jpg" alt="Event Image 1" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-      <img src="image2.jpg" alt="Event Image 2" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-      <img src="image3.jpg" alt="Event Image 3" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-    </div>
-  )
-}
+//         {/* bottom */}
+//         <div className="flex flex-row justify-center items-center"></div>
+      
+    
+//     </div>
+//     </div>
+//   );
+// };
 
-export default Music
+// export default music;

@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+animate-fade-in-out {
+    animation: fadeInOut 3s ease-in-out infinite;
+  }
+  
+  @keyframes fadeInOut {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  animate-pulse-fade {
+    animation: pulseFade 3s ease-in-out infinite;
+  }
+  
+  .animate-smooth-fade {
+    animation: smoothFade 3s cubic-bezier(0.5,1,1,0.5) infinite;
+  }
+  
+  @keyframes smoothFade {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 0.25; /* Start with a lower opacity */
+    }
+    40% {
+      opacity: 0.75; /* Gradually increase opacity */
+    }
+    60% {
+      opacity: 0.75; /* Gradually decrease opacity */
+    }
+    80% {
+      opacity: 0.25;
+    }
+
+    80% {
+        opacity: 0;
+      }
+  }
+  
