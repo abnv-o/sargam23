@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // ... other imports
 import heroim from "../images/Sargamwhiteplain.png";
-import bgvd from "../images/bgvd.mp4";
+import bgvd from "../images/bgvd2.mp4";
 import SargamText from "./SargamText";
 import { Link } from "react-router-dom";
 
@@ -19,7 +19,7 @@ const Hero = () => {
           Your browser does not support the video tag.
         </video>
         {/* Black Overlay */}
-        <div className="absolute inset-0 bg-black opacity-85"></div>
+        <div className="absolute inset-0 bg-black opacity-90"></div>
       </div>
 
       <div className="flex flex-row justify-center items-center">
@@ -49,7 +49,7 @@ const Hero = () => {
               <h1 className="text-white">March 1,2,3,4</h1>
             </div>
 
-            <div>
+            <div className="lg:hidden">
               <SargamText/>
             </div>
 
@@ -66,6 +66,9 @@ const Hero = () => {
               
             </div>
           </div>
+          <div className="hidden lg:flex lg:mt-5">
+              <SargamText/>
+            </div>
         </div>
 
         {/* right of pc */}

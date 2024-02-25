@@ -27,7 +27,7 @@ const SargamText = () => {
       {languages.map((language, index) => (
         <span
           key={index}
-          className={`transition-opacity duration-1000 ease-in-out ${
+          className={`transition-opacity duration-1000 ease-in-out lg:text-3xl ${
             index === currentLanguageIndex ? 'opacity-100' : 'opacity-0'
           }`}
         >
