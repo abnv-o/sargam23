@@ -23,7 +23,7 @@ const SargamText = () => {
   }, [languages]);
 
   return (
-    <div className="flex justify-center  items-center  text-gray-400 ">
+    <div className="flex justify-center  items-center  text-gray-300 ">
       {languages.map((language, index) => (
         <span
           key={index}
