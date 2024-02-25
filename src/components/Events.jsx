@@ -1,66 +1,40 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
+import lit from "../images/literature.png"
+import music from"../images/musical-note.png"
+import theater from "../images/theatre.png"
+import fine from "../images/fine-arts.png"
+import dance from "../images/dancing.png"
+
 
 function Events() {
   return (
-    <div className="flex items-center justify-center  bg-gray-100 p-36">
-      <section className="max-w-7xl mx-auto">
-        <div className="flex flex-col items-center">
-          <h2 className="text-3xl font-bold mb-4">Events</h2>
-          <div className=" flex flex-row justify-evenly items-center gap-24">
-            <div className="flex flex-col items-center justify-center rounded-lg bg-red-400 shadow-md hover:shadow-lg w-40 h-56 hover:animate-bounce">
-              <img
-                src="images/literature.png"
-                alt="Literature"
-                className="w-24 h-24 mb-2 hover:animate-pulse"
-              />
-              <a href="/literature" className="text-lg font-medium text-center">
-                Literature
-              </a>
-            </div>
-            <div className="flex flex-col items-center justify-center rounded-lg bg-green-400 shadow-md hover:shadow-lg w-40 h-56 hover:animate-bounce">
-              <img
-                src="images/musical-note.png"
-                alt="Music"
-                className="w-24 h-24 mb-2 hover:animate-pulse"
-              />
-              <a href="/music" className="text-lg font-medium text-center">
-                Music
-              </a>
-            </div>
-            <div className="flex flex-col items-center justify-center rounded-lg bg-red-400 shadow-md hover:shadow-lg w-40 h-56 hover:animate-bounce">
-              <img
-                src="images/fine-arts.png"
-                alt="Fine Arts"
-                className="w-24 h-24 mb-2 hover:animate-pulse"
-              />
-              <a href="/finearts" className="text-lg font-medium text-center">
-                Fine Arts
-              </a>
-            </div>
-            <div className="flex flex-col items-center justify-center rounded-lg bg-green-400 shadow-md hover:shadow-lg w-40 h-56 hover:animate-bounce">
-              <img
-                src="images/dancing.png"
-                alt="Dance"
-                className="w-24 h-24 mb-2 hover:animate-pulse"
-              />
-              <a href="/dance" className="text-lg font-medium text-center">
-                Dance
-              </a>
-            </div>
-            <div className="flex flex-col items-center justify-center rounded-lg bg-red-400 shadow-md hover:shadow-lg w-40 h-56 hover:animate-bounce">
-              <img
-                src="images/theatre.png"
-                alt="Theatre"
-                className="w-24 h-24 mb-2 hover:animate-pulse"
-              />
-              <a href="/theatre" className="text-lg font-medium text-center">
-                Theatre
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+    <div className="flex flex-col items-center p-4">
+      <h1 className="text-3xl py-4"><u>EVENTS</u></h1>
+     
+     <div className="flex flex-col gap-8">
+      <div className="flex flex-col justify-center  items-center bg-red-400 w-72 h-24 rounded-xl border-2 border-red-500 drop-shadow-lg ">
+        <img src={lit} alt="" className="h-12 px-2 pt-2"  />
+        <h1 className="text-white p-2 mb-3">Literature</h1>
+      </div>
+
+      <div className="flex flex-col justify-center  items-center bg-green-400 w-72 h-24 rounded-xl border-2 border-green-500 drop-shadow-lg ">
+        <img src={music} alt="" className="h-12 px-2 pt-2"  />
+        <h1 className="text-white p-2 mb-3">Music</h1>
+      </div>
+
+      <div className="flex flex-col justify-center  items-center bg-red-400 w-72 h-24 rounded-xl border-2 border-red-500 drop-shadow-lg ">
+        <img src={fine} alt="" className="h-12 px-2 pt-2"  />
+        <h1 className="text-white p-2 mb-3">Finearts</h1>
+      </div>
+
+      <div className="flex flex-col justify-center  items-center bg-green-400 w-72 h-24 rounded-xl border-2 border-green-500 drop-shadow-lg ">
+        <img src={dance} alt="" className="h-12 px-2 pt-2 "  />
+        <h1 className="text-white p-2 mb-3">Dance</h1>
+      </div>
+      </div>
+
+      </div>
   );
 }
 

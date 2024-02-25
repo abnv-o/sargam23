@@ -8,8 +8,8 @@ import Footer from "../components/Footer";
 
 function Main() {
   return (
-    <div className="">
-        <Hero />
+    <div className=" flex flex-col w-screen h-auto">
+      <Hero />
       <About />
       <Events />
       <Gallery />
