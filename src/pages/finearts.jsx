@@ -1,22 +1,76 @@
-import React from 'react'
+import React from "react";
 
-function Finearts() {
+const finearts = () => {
   return (
-    <div style={{ textAlign: 'center' }}>
-    <h1 style={{ color: '#333' }}>EVENTS</h1>
-    <h2 style={{ color: '#555' }}>Fine Arts</h2>
-    <ul style={{ listStyleType: 'none', padding: 0 }}>
-      <li>Painting Exhibition</li>
-      <li>Sculpture Workshop</li>
-      <li>Artistic Photography Contest</li>
-    </ul>
+    <div>
+      {/* parent */}
+      <div className="flex flex-col h-screen justify-center gap-5 p-20 bg-[#E1F0DA]">
+        {/* top */}
+        <div className="flex flex-row justify-around items-start p-10">
+          
+          {/* data */}
+          <div className="flex flex-col justify-center items-center  bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
+              <h1>RANGOLI</h1>
+          </div>
+          {/* data end */}
 
-    <img src="image1.jpg" alt="Event Image 1" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-    <img src="image2.jpg" alt="Event Image 2" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-    <img src="image3.jpg" alt="Event Image 3" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-  </div>
+          {/* data */}
+          <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
+              <h1>SPOT PHOTOGRAPHY</h1>
+          </div>
+          {/* data end */}
+        {/* data */}
+        <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
+              <h1>MEHANDI</h1>
+          </div>
+          {/* data end */}
 
-  )
-}
+        {/* data */}
+        <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
+              <h1>FACE PAINTING</h1>
+          </div>
+          {/* data end */}
 
-export default Finearts
+        {/* data */}
+        <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
+              <h1>PAINTING</h1>
+          </div>
+          {/* data end */}
+      
+        </div>
+
+        {/* bottom */}
+        <div className="flex flex-row justify-around items-start p-10">
+
+          {/* data */}
+        <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
+              <h1>POSTER MAKING</h1>
+          </div>
+          {/* data end */}
+
+            {/* data */}
+        <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
+              <h1>COLLAGE</h1>
+          </div>
+          {/* data end */}
+
+        {/* data */}
+        <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
+              <h1>CLAY MODELLING</h1>
+          </div>
+          {/* data end */}
+
+        {/* data */}
+        <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
+              <h1>CARTOONING</h1>
+          </div>
+          {/* data end */}
+
+
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default finearts;

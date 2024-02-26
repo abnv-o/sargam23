@@ -1,22 +1,32 @@
-import React from 'react'
+import React from "react";
 
-function Theatre() {
-  return (
-    <div style={{ textAlign: 'center' }}>
-    <h1 style={{ color: '#333' }}>EVENTS</h1>
-    <h2 style={{ color: '#555' }}>Theatre</h2>
-    <ul style={{ listStyleType: 'none', padding: 0 }}>
-      <li>Drama Play: "The Mystery of the Lost Script"</li>
-      <li>Improvisation Workshop</li>
-      <li>One-Act Play Competition</li>
-    </ul>
+const theatre = () => {
+    return (
+        <div>
+            {/* parent */}
+            <div className="flex flex-col h-screen justify-center gap-5 p-20 bg-[#E1F0DA]">
+                {/* top */}
+                <div className="flex flex-row justify-around items-start p-10">
 
-    {/* Add your image URLs below */}
-    <img src="image1.jpg" alt="Event Image 1" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-    <img src="image2.jpg" alt="Event Image 2" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-    <img src="image3.jpg" alt="Event Image 3" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-  </div>
-  )
-}
+                    {/* data */}
+                    <div className="flex flex-col justify-center items-center  bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
+                        <h1>KATHAPRASANGAM(M/F)</h1>
+                        <h1>MONO ACT(M/F)</h1>
+                        <h1>MIMICRY(M/F)</h1>
+                    </div>
+                    {/* data end */}
 
-export default Theatre
+                    {/* data */}
+                    <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
+                        <h1>MIME</h1>
+                        <h1>SKIT</h1>
+                        <h1>EKANGA NADAKAM</h1>
+                    </div>
+                    {/* data end */}
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default theatre;
