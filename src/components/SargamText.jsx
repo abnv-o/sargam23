@@ -23,11 +23,11 @@ const SargamText = () => {
   }, [languages]);
 
   return (
-    <div className="flex justify-center  items-center  text-gray-300 ">
+    <div className="flex justify-center  items-center  text-gray-300  ">
       {languages.map((language, index) => (
         <span
           key={index}
-          className={`transition-opacity duration-1000 ease-in-out lg:text-3xl ${
+          className={`mt-2 text-sm transition-opacity duration-1000 ease-in-out lg:text-3xl lg:mt-2 ${
             index === currentLanguageIndex ? 'opacity-100' : 'opacity-0'
           }`}
         >

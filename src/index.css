@@ -47,4 +47,14 @@ animate-fade-in-out {
     font-family: Arabic Transparent, serif; /* Replace with your preferred Arabic font */
     direction: rtl; /* Setting direction for right-to-left languages */
   }
+
+  .itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
+  
   

@@ -7,11 +7,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-
-  
-
-
-    <div className="flex flex-col w-screen h-screen lg:flex lg:flex-col justify-center items-center">
+    <div className="flex flex-col w-screen h-screen lg:flex lg:flex-col lg:justify-center lg:items-center">
       {/* Background Video */}
       <div className="absolute inset-0 w-screen h-screen object-cover z-0">
         <video autoPlay loop muted className="w-screen h-screen object-cover">
@@ -19,23 +15,26 @@ const Hero = () => {
           Your browser does not support the video tag.
         </video>
         {/* Black Overlay */}
-        <div className="absolute inset-0 bg-black opacity-90"></div>
+        <div className="absolute inset-0 bg-black opacity-80"></div>
       </div>
 
-      <div className="flex flex-row justify-center items-center">
+      <div className="flex flex-row justify-center items-center lg:">
         {/* left of pc */}
-        <div className=" flex flex-col  z-10 p-28  " >
-          <div className="flex flex-col">
-        <style>
-@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap')
-</style>
-          <h1 className="text-[#FF1818] text-6xl  animate-pulse-fade font-semibold lg:text-9xl anta-regular">
-            SARGAM
-          </h1>
-          <h1 className=" text-white text-6xl animate-bounce pt-2 lg:text-9xl anta-regular">24</h1>
-          <h2 className="text-gray-500 text-lg lg:text-2xl ">
-            Cochin University Arts Fest
-          </h2>
+        <div className=" flex flex-col  z-10   ">
+          <div className="flex flex-col p-4">
+            <style>
+              @import
+              url('https://fonts.googleapis.com/css2?family=Anta&display=swap')
+            </style>
+            <h1 className="text-[#FF1818] text-6xl  animate-pulse-fade font-semibold lg:text-9xl anta-regular">
+              SARGAM
+            </h1>
+            <h1 className=" text-white text-6xl animate-bounce pt-2 lg:text-9xl anta-regular">
+              24
+            </h1>
+            <h2 className="text-gray-500 text-lg lg:text-2xl ">
+              Cochin University Arts Fest
+            </h2>
           </div>
 
           <div className="flex items-center justify-center lg:hidden">
@@ -43,16 +42,15 @@ const Hero = () => {
           </div>
 
           {/* buttons section */}
-          <div className=" pt-4 flex flex-col items-center lg:flex lg:flex-col lg:items-start">
+          <div className=" flex flex-col items-center lg:flex lg:flex-col lg:items-start lg:px-6">
             <div className=" flex flex-col justify-center items-center tracking-widest border-2 border-red-400 rounded-2xl h-16 w-48 lg:w-56 lg:h-20">
               <h1 className="text-white">February 29</h1>
               <h1 className="text-white">March 1,2,3,4</h1>
             </div>
 
-            <div className="lg:hidden">
-              <SargamText/>
+            <div className=" lg:hidden">
+              <SargamText />
             </div>
-
 
             <div className="mt-2">
               <Link to="/livescore">
@@ -63,12 +61,12 @@ const Hero = () => {
                   </div>
                 </button>
               </Link>
-              
             </div>
           </div>
-          <div className="hidden lg:flex lg:mt-5">
-              <SargamText/>
-            </div>
+
+          <div className=" hidden lg:flex lg:pl-6">
+            <SargamText />
+          </div>
         </div>
 
         {/* right of pc */}
@@ -76,14 +74,6 @@ const Hero = () => {
           <img src={heroim} alt="" className="h-[45rem] w-[45rem]" />
         </div>
       </div>
-
-
-      
- 
-      
-
-
-
     </div>
   );
 };

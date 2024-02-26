@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 function Main() {
   return (
-    <div className=" flex flex-col w-screen h-auto">
+    <div className=" flex flex-col">
       <Hero />
       <About />
       <Events />
