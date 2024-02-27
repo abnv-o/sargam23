@@ -10,13 +10,10 @@ import Music from './pages/Music';
 import Theatre from './pages/Theatre';
 import Footer from './components/Footer';
 import {Routes, Route, BrowserRouter} from "react-router-dom";
-import Navbar from './components/Navbar';
 function App() {
   return (
     <div>
       <BrowserRouter>
-
-      <Navbar/>
 
      <Routes>
       <Route path='/' element={<Main/>}/>
