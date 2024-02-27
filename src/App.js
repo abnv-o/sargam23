@@ -3,11 +3,11 @@ import './output.css';
 import Adminform from './pages/Adminform';
 import Pointstable from './pages/Pointstable';
 import Main from './pages/main';
-import Literature from './pages/Literature';
-import Dance from './pages/Dance';
-import Finearts from './pages/Finearts';
-import Music from './pages/Music';
-import Theatre from './pages/Theatre';
+import Literature from './pages/literature';
+import Dance from './pages/dance';
+import Finearts from './pages/finearts';
+import Music from './pages/music';
+import Theatre from './pages/theatre';
 import Footer from './components/Footer';
 import {Routes, Route, BrowserRouter} from "react-router-dom";
 function App() {
