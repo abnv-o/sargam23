@@ -1,6 +1,6 @@
 import React from "react";
 
-const literature = () => {
+const Literature = () => {
   return (
     <div className=" flex flex-col items-center  p-4 w-screen bg-gradient-to-r from-slate-900 to-slate-700 text-white  ">
       {/* parent */}
@@ -107,4 +107,4 @@ const literature = () => {
   );
 };
 
-export default literature;
+export default Literature;
