@@ -12,8 +12,6 @@ function Main() {
       <Hero />
       <About />
       <Events />
-      <Gallery />
-      <Footer />
     </div>
   );
 }

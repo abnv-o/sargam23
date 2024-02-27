@@ -55,48 +55,48 @@ const Pointstable = () => {
 
 
   return (
-    <div className='flex flex-col items-center bg-red-100 p-4 w-screen h-screen'>
+    <div className='flex flex-col pt-5 items-center bg-gradient-to-r from-slate-900 to-slate-700 p-4 w-screen h-screen '>
 
-      <h1 className='text-3xl text-gray-600 tracking-widest'>POINTS TABLE</h1>
-      <div className='flex flex-col items-center m-4 bg-red-200 w-72 h-screen rounded-lg gap-5 py-4 justify-around'>
+      <h1 className='text-3xl text-red-400 tracking-widest'>POINTS TABLE</h1>
+      <div className=' text-white flex flex-col items-center m-4 bg-blue-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100 w-72 h-screen  gap-5 py-4 justify-around lg:w-96 lg:flex lg:flex-col'>
        
-        <div className='flex flex-row justify-between bg-red-300 w-64 h-8 p-1 px-4 rounded-lg'>
+        <div className='flex flex-row justify-between bg-black  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border-2  border-white w-64 h-8 p-1 px-4  rounded-lg'>
           <h1>Zone 1</h1>
           <h1>{zoneData.zone1}</h1>
         </div>
 
-        <div className='flex flex-row justify-between  items-center bg-red-300 w-64 h-8   p-1 px-4 rounded-lg'>
+        <div className='flex flex-row justify-between  items-center bg-black  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border-2  border-white w-64 h-8   p-1 px-4 rounded-lg '>
           <h1>Zone 2</h1>
           <h1>{zoneData.zone2}</h1>
         </div>
 
 
-        <div className='flex flex-row justify-between  items-center bg-red-300 w-64 h-8  p-1 px-4 rounded-lg'>
+        <div className='flex flex-row justify-between  items-center bg-black  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border-2  border-white w-64 h-8  p-1 px-4 rounded-lg '>
           <h1>Zone 3</h1>
           <h1>{zoneData.zone3}</h1>
         </div>
 
-        <div className='flex flex-row justify-between  items-center bg-red-300 w-64 h-8  p-1 px-4 rounded-lg'>
+        <div className='flex flex-row justify-between  items-center bg-black  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border-2  border-white w-64 h-8  p-1 px-4 rounded-lg '>
           <h1>Zone 4</h1>
           <h1>{zoneData.zone4}</h1>
         </div>
 
-        <div className='flex flex-row justify-between  items-center bg-red-300 w-64 h-8  p-1 px-4 rounded-lg'>
+        <div className='flex flex-row justify-between  items-center bg-black  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border-2  border-white w-64 h-8  p-1 px-4 rounded-lg '>
           <h1>Zone 5</h1>
           <h1>{zoneData.zone5}</h1>
         </div>
 
-        <div className='flex flex-row justify-between  items-center bg-red-300 w-64 h-8  p-1 px-4 rounded-lg'>
+        <div className='flex flex-row justify-between  items-center bg-black  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border-2  border-white w-64 h-8  p-1 px-4 rounded-lg '>
           <h1>Zone 6</h1>
           <h1>{zoneData.zone6}</h1>
         </div>
 
-        <div className='flex flex-row justify-between  items-center bg-red-300 w-64 h-8  p-1 px-4 rounded-lg'>
+        <div className='flex flex-row justify-between  items-center bg-black  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border-2  border-white w-64 h-8  p-1 px-4 rounded-lg '>
           <h1>Zone 7</h1>
           <h1>{zoneData.zone7}</h1>
         </div>
 
-        <div className='flex flex-row justify-between  items-center bg-red-300 w-64 h-8  p-1 px-4 rounded-lg'>
+        <div className='flex flex-row justify-between  items-center bg-black  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border-2  border-white w-64 h-8  p-1 px-4 rounded-lg '>
           <h1>Zone 8</h1>
           <h1>{zoneData.zone8}</h1>
         </div>

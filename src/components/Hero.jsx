@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="flex flex-row justify-center items-center lg:">
         {/* left of pc */}
         <div className=" flex flex-col  z-10   ">
-          <div className="flex flex-col p-4">
+          <div className="flex flex-col ">
             <style>
               @import
               url('https://fonts.googleapis.com/css2?family=Anta&display=swap')
@@ -52,7 +52,7 @@ const Hero = () => {
               <SargamText />
             </div>
 
-            <div className="mt-2">
+            <div className="mt-1">
               <Link to="/livescore">
                 <button className="bg-white w-56 h-20 rounded-2xl text-black border-2  hover:bg-red-500 hover:border-red-400 flex justify-around items-center ">
                   <div className="bg-red-400 w-5 h-5 rounded-md animate-spin"></div>

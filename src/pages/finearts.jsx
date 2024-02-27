@@ -1,76 +1,45 @@
 import React from "react";
 
-const finearts = () => {
+const Finearts= () => {
   return (
-    <div>
+    <div className=" flex flex-col items-center h-screen p-4 w-screen bg-gradient-to-r from-slate-900 to-slate-700 text-white lg:h-screen  ">
       {/* parent */}
-      <div className="flex flex-col h-screen justify-center gap-5 p-20 bg-[#E1F0DA]">
-        {/* top */}
-        <div className="flex flex-row justify-around items-start p-10">
+
+      <h1 className="text-6xl p-4">FINE ARTS</h1>
+
+      <div className="flex flex-col items-center w-full h-full lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:items-center gap-4">
+
+      <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-64  ">
+        
+        <ul>
+          <li>RANGOLI</li>
+          <li>SPOT PHOTOGRAPHY</li>
+          <li>MEHANDI</li>
+          <li>FACE PAINTING</li>
+          <li>PAINTING</li>
           
-          {/* data */}
-          <div className="flex flex-col justify-center items-center  bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
-              <h1>RANGOLI</h1>
-          </div>
-          {/* data end */}
-
-          {/* data */}
-          <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
-              <h1>SPOT PHOTOGRAPHY</h1>
-          </div>
-          {/* data end */}
-        {/* data */}
-        <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
-              <h1>MEHANDI</h1>
-          </div>
-          {/* data end */}
-
-        {/* data */}
-        <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
-              <h1>FACE PAINTING</h1>
-          </div>
-          {/* data end */}
-
-        {/* data */}
-        <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
-              <h1>PAINTING</h1>
-          </div>
-          {/* data end */}
-      
-        </div>
-
-        {/* bottom */}
-        <div className="flex flex-row justify-around items-start p-10">
-
-          {/* data */}
-        <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
-              <h1>POSTER MAKING</h1>
-          </div>
-          {/* data end */}
-
-            {/* data */}
-        <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
-              <h1>COLLAGE</h1>
-          </div>
-          {/* data end */}
-
-        {/* data */}
-        <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
-              <h1>CLAY MODELLING</h1>
-          </div>
-          {/* data end */}
-
-        {/* data */}
-        <div className="flex flex-col justify-center items-center bg-[#BFD8AF] w-64 h-80 rounded-3xl border-2 border-[#99BC85]">
-              <h1>CARTOONING</h1>
-          </div>
-          {/* data end */}
 
 
-        </div>
+        </ul>
       </div>
+
+      <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-64 ">
+        
+        <ul>
+        <li>POSTER MAKING</li>
+          <li>CLAY MODELLING</li>
+          <li>COLLAGE</li>
+          <li>CARTOONING</li>
+         
+        </ul>
+      </div>
+
+      
+      </div>
+      
+        
     </div>
   );
 };
 
-export default finearts;
+export default Finearts;
